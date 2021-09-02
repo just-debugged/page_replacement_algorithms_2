@@ -1,20 +1,21 @@
 from tkinter import *
-import os
 import subprocess
+import os
 
 
 def one():
-    file1 = "python3 /Users/kevin/Desktop/OS/DiskScheduling.py"
-    # os.system(file1)
-    p = subprocess.Popen(file1, shell=True, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-    stdout, stderr = p.communicate()
+    # tried doing it in their method but found os method more modular.
+    # file1 = " C:\Users\Mihir Shah\PycharmProjects\pageReplacementOS\DiskScheduling.py"
+    os.system('python DiskScheduling.py')
+    # p = subprocess.Popen(file1, shell=True, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    # stdout, stderr = p.communicate()
 
 
 def two():
-    file2 = "python3 /Users/kevin/Desktop/OS/PageReplacement.py"
-    # os.system(file2)
-    p = subprocess.Popen(file2, shell=True, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-    stdout, stderr = p.communicate()
+    # file2 = "python3 /Users/kevin/Desktop/OS/PageReplacement.py"
+    os.system('python PageReplacement.py')
+    # p = subprocess.Popen(file2, shell=True, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    # stdout, stderr = p.communicate()
 
 
 def three():
