@@ -20,7 +20,7 @@ def two():
 
 def three():
     # put your scheduling file in same folder and rename 'file3' below
-    file3 = 'your scheduling file.py'
+    file3 = 'CpuScheduling.py'
     os.system(file3)
 
 
@@ -48,7 +48,7 @@ Button1 = Button(f1, text="Disk Scheduling Algorithm", borderwidth="0", bg="#e8e
 Button2 = Button(f1, text="Page Replacement Algorithm", borderwidth="0", bg="#e8e8e8", fg="green",
                  font=("Century Gothic", 15), activeforeground="black", activebackground="#bbbfca", command=two)\
     .pack(pady="30")
-Button3 = Button(f1, text="Scheduling Algorithm", borderwidth="0", bg="#e8e8e8", fg="green",
+Button3 = Button(f1, text="CPU Scheduling Algorithm", borderwidth="0", bg="#e8e8e8", fg="green",
                  font=("Century Gothic", 15), activeforeground="black", activebackground="#bbbfca",
                  command=three).pack()
 Button4 = Button(f1, text="Concurrency & Deadlock Algorithm", borderwidth="0", bg="#e8e8e8", fg="green",
