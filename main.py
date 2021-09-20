@@ -20,8 +20,8 @@ def two():
 
 def three():
     # put your scheduling file in same folder and rename 'file3' below
-    file3 = 'CpuScheduling.py'
-    os.system(file3)
+    # file3 = 'CpuScheduling.py'
+    os.system('python CpuScheduling.py')
 
 
 def four():
