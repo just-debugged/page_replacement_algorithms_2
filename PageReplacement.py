@@ -5,7 +5,7 @@ import subprocess                              #Link Theory.py with this page
 
 # Theory of PRA
 def theory():
-    file1 = "python3 /Users/kevin/Desktop/OS/Theory.py"
+    file1 = "python Theory.py"
     # os.system(file1)
     p = subprocess.Popen(file1, shell=True, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     stdout, stderr = p.communicate()
